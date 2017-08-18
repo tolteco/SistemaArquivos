@@ -1,4 +1,4 @@
-Decisıes de Projeto:
+Decis√µes de Projeto:
 
 info | bitmap | dados
 
@@ -12,17 +12,9 @@ bitmap = free or occupied control
 3 bytes modifiedDate
 3 bytes lastAccess
 
-last,mod,cretion:
-7 bits pra centÈsimo
+last ,mod, creation:
+7 bits pra cent√©simo
 6 bits pra segundos
 6 bits pra minutos
 4 bits pra horas
 1 bit pra am/pm
-
-John:
-
-
-Leitecea:
-
-
-Bino:
