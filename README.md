@@ -81,7 +81,7 @@ typedef struct NFS_info_t
   unsigned char block_size;
   unsigned char n_blocks_per_group;
   unsigned char n_groups;
-}__attribute__((packed)) info_t;
+}__attributes__((packed)) info_t;
 
 Struct para os atributos de entrada:
 enum class entry_flags : unsigned char
@@ -118,4 +118,4 @@ typedef struct NFS_entry_t
   sfs_date_time last_access_time;
   unsigned long long size;
   unsigned int first_block;
-}__attribute__((packed)) entry_t;
+}__attributes__((packed)) entry_t;
