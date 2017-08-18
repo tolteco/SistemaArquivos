@@ -1,6 +1,6 @@
 # SistemaArquivos
 Terceiro Trabalho de SO - 2017 - NFS - Neo File System
-
+```
 NFS foi desenvolvido na disciplina de SO (Sistemas Operacionais, 2017) na UNIOESTE (Universidade Estadual do Oeste do Paraná), pelos alunos Bruno Luiz Casarotto, Maycon Queiroz de Oliveira e Anderson Bottega.
 
 1. Decisões de projeto
@@ -119,3 +119,4 @@ typedef struct NFS_entry_t
   unsigned long long size;
   unsigned int first_block;
 }__attributes__((packed)) entry_t;
+```
